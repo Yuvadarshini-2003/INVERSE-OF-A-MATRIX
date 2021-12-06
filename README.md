@@ -22,7 +22,7 @@ inverse=np.linalg.inv(A)
 print(inverse)
 ~~~
 ## Output:
-![GitHub Logo](inverse.png)
+![GitHub Logo](m3.png)
 ## Result:
 Thus the inverse of given matrix is successfully solved using python program
 
