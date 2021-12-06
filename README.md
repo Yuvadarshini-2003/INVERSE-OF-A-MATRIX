@@ -16,13 +16,13 @@ Print the inverse and conclude the program
 
 ## Program:
 ~~~
-import numpy
-x=numpy.array([[1,0,3],[-1,2,-2],[2,3,-1]])
-y=numpy.linalg.inv(x)
-print(y)
+import numpy as np
+A=np.array([[2,1,1],[1,1,1],[1,-1,2]])
+inverse=np.linalg.inv(A)
+print(inverse)
 ~~~
 ## Output:
-![GitHub Logo](mat3.png)
+![GitHub Logo](inverse.png)
 ## Result:
 Thus the inverse of given matrix is successfully solved using python program
 
